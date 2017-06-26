@@ -1,6 +1,7 @@
+#include "stdafx.h"
 #include "queue.h"
 
-queue::queue(int qs = Q_SIZE) :qsize(qs) //qsize 必须要初始化列表 because 是const
+queue::queue(int qs ) :qsize(qs) //qsize 必须要初始化列表 because 是const
 {
 	last = first = nullptr;
 	numitem = 0;
