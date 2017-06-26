@@ -17,7 +17,8 @@ private :
 
 	node* first;
 	node* last;
-
+	queue(const queue &q) :qsize(0){}
+	queue & operator=(const queue &q){ return *this; }
 public:
 	queue(int qs = Q_SIZE);
 	~queue();

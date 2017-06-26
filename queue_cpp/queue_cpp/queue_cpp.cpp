@@ -14,7 +14,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	line.enqueue(2);
 	line.enqueue(3);
 	line.enqueue(4);
-
+	 
 	int out;
 	line.dequeue(out);
 	cout << out << endl;
